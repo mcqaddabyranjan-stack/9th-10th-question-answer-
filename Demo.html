@@ -2,95 +2,129 @@
 <html lang="hi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question Paper PDF - ElectroX MCQ</title>
+    <title>ElectroX MCQ - प्रकाश का अपवर्तन सम्पूर्ण नोट्स</title>
     <style>
-        /* A4 Page Settings */
-        @page {
-            size: A4;
-            margin: 20mm;
-        }
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            width: 210mm;
-            min-height: 297mm;
-            padding: 20mm;
-            margin: 10px auto;
-            background: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1, h2 { text-align: center; color: #333; }
-        .section-title {
-            background: #eee;
-            padding: 5px 10px;
-            font-weight: bold;
-            border-left: 5px solid #000;
-            margin-top: 20px;
-        }
-        .question { margin-bottom: 15px; }
-        .q-text { font-weight: bold; }
-        .ans-text { color: #555; margin-left: 20px; }
-        
-        /* Print Button - Hide during printing */
-        .no-print {
-            display: block;
-            width: 200px;
-            margin: 20px auto;
-            padding: 10px;
-            background: #28a745;
-            color: white;
-            text-align: center;
-            cursor: pointer;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-
-        @media print {
-            body { background: none; }
-            .container { 
-                width: 100%; 
-                margin: 0; 
-                box-shadow: none; 
-                padding: 0;
-            }
-            .no-print { display: none; }
-        }
+        @page { size: A4; margin: 10mm; }
+        body { font-family: 'Arial', sans-serif; line-height: 1.5; color: #222; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { width: 210mm; padding: 15mm; margin: 10px auto; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); box-sizing: border-box; }
+        .header { text-align: center; border-bottom: 2px solid #000; margin-bottom: 15px; padding-bottom: 5px; }
+        .header h1 { margin: 0; font-size: 20px; }
+        .header p { margin: 3px 0; font-weight: bold; color: #d35400; font-size: 14px; }
+        .section-title { background: #2c3e50; color: white; padding: 5px 10px; font-weight: bold; margin-top: 15px; border-radius: 4px; font-size: 14px; }
+        .question-box { margin: 8px 0; border-bottom: 1px solid #eee; padding-bottom: 5px; font-size: 12px; page-break-inside: avoid; }
+        .q-text { font-weight: bold; color: #000; display: block; }
+        .ans-text { color: #333; display: block; padding-left: 15px; text-align: justify; }
+        .no-print { display: block; width: 220px; margin: 10px auto; padding: 10px; background: #e74c3c; color: white; text-align: center; cursor: pointer; border-radius: 5px; border: none; font-weight: bold; }
+        @media print { .no-print { display: none; } .container { width: 100%; margin: 0; box-shadow: none; } }
     </style>
 </head>
 <body>
 
-    <a href="#" class="no-print" onclick="window.print()">Download PDF / Print</a>
+    <button class="no-print" onclick="window.print()">📥 सम्पूर्ण PDF डाउनलोड करें</button>
 
     <div class="container">
-        <h1>BSEB Class 10 - Science</h1>
-        <h2>ElectroX MCQ Special Notes</h2>
-        <hr>
-
-        <div class="section-title">अति लघु उत्तरीय प्रश्न (Very Short Answer Type)</div>
-        <div class="question">
-            <p class="q-text">1. प्रकाश का परावर्तन क्या है?</p>
-            <p class="ans-text">उत्तर: जब प्रकाश किसी सतह से टकराकर वापस लौटता है, तो इसे प्रकाश का परावर्तन कहते हैं।</p>
+        <div class="header">
+            <h1>ElectroX MCQ - कक्षा 10 भौतिकी</h1>
+            <p>अध्याय: प्रकाश का अपवर्तन (Complete Set from Photos)</p>
         </div>
 
-        <div class="section-title">लघु उत्तरीय प्रश्न (Short Answer Type)</div>
-        <div class="question">
-            <p class="q-text">1. अवतल दर्पण के दो उपयोग लिखें।</p>
-            <p class="ans-text">उत्तर: (i) हजामती दर्पण के रूप में, (ii) टॉर्च और सर्च लाइट में।</p>
+        <div class="section-title">I. अति लघु उत्तरीय प्रश्न (Very Short Questions)</div>
+        
+        <div class="question-box"><span class="q-text">1. प्रकाश के अपवर्तन से आप क्या समझते हैं?</span><span class="ans-text">उत्तर: जब प्रकाश एक माध्यम से दूसरे माध्यम में प्रवेश करता है, तो इसकी दिशा बदल जाती है। इसे अपवर्तन कहते हैं।</span></div>
+        <div class="question-box"><span class="q-text">2. प्रकाश की किरण जब विरल से सघन माध्यम में जाती है, तो किधर मुड़ती है?</span><span class="ans-text">उत्तर: अभिलंब की ओर।</span></div>
+        <div class="question-box"><span class="q-text">3. सघन से विरल माध्यम में जाने पर किरण किधर मुड़ती है?</span><span class="ans-text">उत्तर: अभिलंब से दूर।</span></div>
+        <div class="question-box"><span class="q-text">4. वायु में प्रकाश की चाल कितनी है?</span><span class="ans-text">उत्तर: 3,00,000 किमी/सेकंड।</span></div>
+        <div class="question-box"><span class="q-text">5. स्नेल का नियम क्या है?</span><span class="ans-text">उत्तर: sin i / sin r = नियतांक।</span></div>
+        <div class="question-box"><span class="q-text">6. अपवर्तनांक की परिभाषा दें।</span><span class="ans-text">उत्तर: निर्वात में प्रकाश की चाल और माध्यम में प्रकाश की चाल का अनुपात।</span></div>
+        <div class="question-box"><span class="q-text">7. किस माध्यम का अपवर्तनांक अधिक होता है?</span><span class="ans-text">उत्तर: सघन माध्यम का।</span></div>
+        <div class="question-box"><span class="q-text">8. "पानी का अपवर्तनांक 1.33 है" का क्या अर्थ है?</span><span class="ans-text">उत्तर: पानी में प्रकाश की चाल निर्वात की चाल का 1/1.33 गुना है।</span></div>
+        <div class="question-box"><span class="q-text">9. पार्श्व विस्थापन क्या है?</span><span class="ans-text">उत्तर: आपतित किरण और निर्गत किरण के बीच की लंबवत दूरी।</span></div>
+        <div class="question-box"><span class="q-text">10. लेंस क्या है?</span><span class="ans-text">उत्तर: पारदर्शी पदार्थ का वह टुकड़ा जो दो निश्चित सतहों से घिरा हो।</span></div>
+        <div class="question-box"><span class="q-text">11. लेंस कितने प्रकार के होते हैं?</span><span class="ans-text">उत्तर: मुख्य रूप से दो (उत्तल और अवतल)।</span></div>
+        <div class="question-box"><span class="q-text">12. मुख्य अक्ष किसे कहते हैं?</span><span class="ans-text">उत्तर: वक्रता केंद्रों को मिलाने वाली सरल रेखा।</span></div>
+        <div class="question-box"><span class="q-text">13. पतला लेंस किसे कहते हैं?</span><span class="ans-text">उत्तर: जिसकी मोटाई उसकी वक्रता त्रिज्या से नगण्य हो।</span></div>
+        <div class="question-box"><span class="q-text">14. मुख्य फोकस की संख्या कितनी होती है?</span><span class="ans-text">उत्तर: दो।</span></div>
+        <div class="question-box"><span class="q-text">15. उत्तल लेंस के सामने वस्तु कहाँ रखने पर बराबर प्रतिबिंब बनता है?</span><span class="ans-text">उत्तर: 2F पर।</span></div>
+        <div class="question-box"><span class="q-text">16. किस लेंस की फोकस दूरी धनात्मक होती है?</span><span class="ans-text">उत्तर: उत्तल लेंस।</span></div>
+        <div class="question-box"><span class="q-text">17. किस माध्यम में प्रकाश की चाल सबसे अधिक होती है?</span><span class="ans-text">उत्तर: निर्वात में।</span></div>
+        <div class="question-box"><span class="q-text">18. अभिसारी लेंस किसे कहते हैं?</span><span class="ans-text">उत्तर: उत्तल लेंस।</span></div>
+        <div class="question-box"><span class="q-text">19. अनंत पर रखी वस्तु का प्रतिबिंब कहाँ बनेगा?</span><span class="ans-text">उत्तर: फोकस पर।</span></div>
+        <div class="question-box"><span class="q-text">20. लेंस का आवर्धन क्या है?</span><span class="ans-text">उत्तर: प्रतिबिंब की ऊँचाई और वस्तु की ऊँचाई का अनुपात (v/u)।</span></div>
+        <div class="question-box"><span class="q-text">21. वास्तविक प्रतिबिंब के लिए आवर्धन कैसा होता है?</span><span class="ans-text">उत्तर: ऋणात्मक (-)।</span></div>
+        <div class="question-box"><span class="q-text">22. आभासी प्रतिबिंब के लिए आवर्धन कैसा होता है?</span><span class="ans-text">उत्तर: धनात्मक (+)।</span></div>
+        <div class="question-box"><span class="q-text">23. सिनेमा हॉल के पर्दे पर कैसा प्रतिबिंब दिखता है?</span><span class="ans-text">उत्तर: वास्तविक।</span></div>
+        <div class="question-box"><span class="q-text">24. दैनिक जीवन में लेंस के दो उपयोग?</span><span class="ans-text">उत्तर: चश्मों में और सूक्ष्मदर्शी में।</span></div>
+        <div class="question-box"><span class="q-text">25. लेंस सूत्र लिखें।</span><span class="ans-text">उत्तर: 1/v - 1/u = 1/f।</span></div>
+        <div class="question-box"><span class="q-text">26. लेंस की क्षमता का सूत्र क्या है?</span><span class="ans-text">उत्तर: P = 1/f (मीटर में)।</span></div>
+        <div class="question-box"><span class="q-text">27. लेंस की क्षमता का SI मात्रक क्या है?</span><span class="ans-text">उत्तर: डायोप्टर (D)।</span></div>
+        <div class="question-box"><span class="q-text">28. अवतल लेंस की क्षमता कैसी होती है?</span><span class="ans-text">उत्तर: ऋणात्मक।</span></div>
+        <div class="question-box"><span class="q-text">29. u, v, f में क्या संबंध है?</span><span class="ans-text">उत्तर: 1/v - 1/u = 1/f।</span></div>
+        <div class="question-box"><span class="q-text">30. आवर्धन m का मान v और u के पदों में?</span><span class="ans-text">उत्तर: m = v/u।</span></div>
+        <div class="question-box"><span class="q-text">31. फोकस दूरी और क्षमता में क्या संबंध है?</span><span class="ans-text">उत्तर: P = 1/f।</span></div>
+        <div class="question-box"><span class="q-text">32. डायोप्टर को परिभाषित करें।</span><span class="ans-text">उत्तर: 1 मीटर फोकस दूरी वाले लेंस की क्षमता।</span></div>
+        <div class="question-box"><span class="q-text">33. +1.5D वाला लेंस कैसा है?</span><span class="ans-text">उत्तर: उत्तल लेंस।</span></div>
+        <div class="question-box"><span class="q-text">34. क्या लेंस का आधा भाग काला करने पर प्रतिबिंब बनेगा?</span><span class="ans-text">उत्तर: हाँ, पूरा प्रतिबिंब बनेगा लेकिन धुंधला।</span></div>
+        <div class="question-box"><span class="q-text">35. लेंस प्रतिबिंब कैसे बनाते हैं?</span><span class="ans-text">उत्तर: अपवर्तन द्वारा।</span></div>
+        <div class="question-box"><span class="q-text">36. 1 डायोप्टर को परिभाषित करें।</span><span class="ans-text">उत्तर: 1D = 1m⁻¹।</span></div>
+        <div class="question-box"><span class="q-text">37. 2m फोकस दूरी वाले अवतल लेंस की क्षमता?</span><span class="ans-text">उत्तर: -0.5D।</span></div>
+        <div class="question-box"><span class="q-text">38. 2m फोकस दूरी वाले उत्तल लेंस की क्षमता?</span><span class="ans-text">उत्तर: +0.5D।</span></div>
+        <div class="question-box"><span class="q-text">39. +5D क्षमता वाला लेंस कैसा है?</span><span class="ans-text">उत्तर: उत्तल लेंस।</span></div>
+
+        <div class="section-title">II. लघु उत्तरीय प्रश्न (Short Answer Questions)</div>
+        <div class="question-box">
+            <span class="q-text">1. प्रकाश के अपवर्तन का क्या तात्पर्य है? इसके नियमों को लिखें।</span>
+            <span class="ans-text">उत्तर: जब प्रकाश की किरण एक पारदर्शी माध्यम से दूसरे में तिरछी प्रवेश करती है, तो वह अपने मार्ग से विचलित हो जाती है। नियम: (1) आपतित, अपवर्तित किरण और अभिलंब एक ही समतल में होते हैं। (2) स्नेल का नियम।</span>
+        </div>
+        <div class="question-box">
+            <span class="q-text">2. हमारे दैनिक जीवन में अपवर्तन के उदाहरण दें।</span>
+            <span class="ans-text">उत्तर: पानी में डूबी छड़ी का मुड़ा दिखना, बाल्टी की गहराई कम लगना और तारों का टिमटिमाना।</span>
+        </div>
+        <div class="question-box">
+            <span class="q-text">3. हवा में चलती प्रकाश किरण पानी में प्रवेश करने पर क्यों झुकती है?</span>
+            <span class="ans-text">उत्तर: क्योंकि पानी हवा की तुलना में सघन माध्यम है और इसमें प्रकाश की चाल कम हो जाती है।</span>
+        </div>
+        <div class="question-box">
+            <span class="q-text">4. उत्तल लेंस और अवतल लेंस में अंतर स्पष्ट करें।</span>
+            <span class="ans-text">उत्तर: उत्तल लेंस बीच में मोटा और किनारों पर पतला होता है, जबकि अवतल लेंस बीच में पतला और किनारों पर मोटा होता है।</span>
+        </div>
+        <div class="question-box">
+            <span class="q-text">5. लेंस की क्षमता से आप क्या समझते हैं?</span>
+            <span class="ans-text">उत्तर: लेंस द्वारा प्रकाश किरणों को मोड़ने की क्षमता को उसकी क्षमता कहते हैं, जो फोकस दूरी का व्युत्क्रम होती है।</span>
+        </div>
+        <div class="question-box">
+            <span class="q-text">6. पार्श्व विस्थापन को परिभाषित करें।</span>
+            <span class="ans-text">उत्तर: आपतित किरण और निर्गत किरण के बीच की लंबवत दूरी को पार्श्व विस्थापन कहते हैं।</span>
+        </div>
+        <div class="question-box">
+            <span class="q-text">7. सिक्का पानी में ऊपर उठा क्यों दिखता है?</span>
+            <span class="ans-text">उत्तर: क्योंकि प्रकाश किरणें सघन से विरल माध्यम में आते समय अभिलंब से दूर हटती हैं।</span>
         </div>
 
-        <div class="section-title">दीर्घ उत्तरीय प्रश्न (Long Answer Type)</div>
-        <div class="question">
-            <p class="q-text">1. ओम के नियम को लिखें और इसे सत्यापित करें।</p>
-            <p class="ans-text">उत्तर: [यहाँ आपका विस्तृत उत्तर आएगा...]</p>
+        <div class="section-title">III. दीर्घ उत्तरीय प्रश्न (Long Answer Questions)</div>
+        <div class="question-box">
+            <span class="q-text">1. पानी में डूबी छड़ी मुड़ी क्यों दिखती है? सचित्र व्याख्या करें।</span>
+            <span class="ans-text">उत्तर: सघन माध्यम (पानी) से विरल माध्यम (हवा) में प्रकाश जाते समय अभिलंब से दूर हटता है, जिससे वस्तु अपनी वास्तविक स्थिति से ऊपर उठी हुई और मुड़ी दिखाई देती है।</span>
+        </div>
+        
+        <div class="question-box">
+            <span class="q-text">2. काँच की सिल्ली से प्रकाश के अपवर्तन का वर्णन करें।</span>
+            <span class="ans-text">उत्तर: प्रकाश किरण हवा से काँच में प्रवेश करते समय अभिलंब की ओर झुकती है और बाहर निकलते समय पुनः अभिलंब से दूर हटकर आपतित किरण के समांतर हो जाती है।</span>
+        </div>
+        
+        <div class="question-box">
+            <span class="q-text">3. उत्तल लेंस के प्रथम और द्वितीय मुख्य फोकस को समझाएं।</span>
+            <span class="ans-text">उत्तर: मुख्य अक्ष पर वह बिंदु जहाँ से आने वाली किरणें अपवर्तन के बाद समांतर हो जाती हैं (प्रथम फोकस) और समांतर आने वाली किरणें जहाँ मिलती हैं (द्वितीय फोकस)।</span>
+        </div>
+        <div class="question-box">
+            <span class="q-text">4. उत्तल लेंस में प्रतिबिंब निर्माण दिखाएं जब वस्तु F और केंद्र के बीच हो।</span>
+            <span class="ans-text">उत्तर: इस स्थिति में प्रतिबिंब आभासी, सीधा और वस्तु से बहुत बड़ा बनता है।</span>
+        </div>
+        <div class="question-box">
+            <span class="q-text">5. लेंस की क्षमता और फोकस दूरी के बीच संबंध की विस्तृत व्याख्या करें।</span>
+            <span class="ans-text">उत्तर: क्षमता (P) फोकस दूरी (f) के व्युत्क्रमानुपाती होती है ($P=1/f$)। इसका मात्रक डायोप्टर (D) है।</span>
         </div>
 
     </div>
-
 </body>
-</html>
+                                      </html>
+                                                                                           
