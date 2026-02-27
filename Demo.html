@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Paper PDF - ElectroX MCQ</title>
+    <style>
+        /* A4 Page Settings */
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 20mm;
+            margin: 10px auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 { text-align: center; color: #333; }
+        .section-title {
+            background: #eee;
+            padding: 5px 10px;
+            font-weight: bold;
+            border-left: 5px solid #000;
+            margin-top: 20px;
+        }
+        .question { margin-bottom: 15px; }
+        .q-text { font-weight: bold; }
+        .ans-text { color: #555; margin-left: 20px; }
+        
+        /* Print Button - Hide during printing */
+        .no-print {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background: #28a745;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        @media print {
+            body { background: none; }
+            .container { 
+                width: 100%; 
+                margin: 0; 
+                box-shadow: none; 
+                padding: 0;
+            }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#" class="no-print" onclick="window.print()">Download PDF / Print</a>
+
+    <div class="container">
+        <h1>BSEB Class 10 - Science</h1>
+        <h2>ElectroX MCQ Special Notes</h2>
+        <hr>
+
+        <div class="section-title">अति लघु उत्तरीय प्रश्न (Very Short Answer Type)</div>
+        <div class="question">
+            <p class="q-text">1. प्रकाश का परावर्तन क्या है?</p>
+            <p class="ans-text">उत्तर: जब प्रकाश किसी सतह से टकराकर वापस लौटता है, तो इसे प्रकाश का परावर्तन कहते हैं।</p>
+        </div>
+
+        <div class="section-title">लघु उत्तरीय प्रश्न (Short Answer Type)</div>
+        <div class="question">
+            <p class="q-text">1. अवतल दर्पण के दो उपयोग लिखें।</p>
+            <p class="ans-text">उत्तर: (i) हजामती दर्पण के रूप में, (ii) टॉर्च और सर्च लाइट में।</p>
+        </div>
+
+        <div class="section-title">दीर्घ उत्तरीय प्रश्न (Long Answer Type)</div>
+        <div class="question">
+            <p class="q-text">1. ओम के नियम को लिखें और इसे सत्यापित करें।</p>
+            <p class="ans-text">उत्तर: [यहाँ आपका विस्तृत उत्तर आएगा...]</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
